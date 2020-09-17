@@ -1,0 +1,55 @@
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+      
+        <h1>"Watch it Outside Boston Edition" Registration Form</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password">
+          
+          </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Reservations</legend>
+          <label>Select the day(s) you'll be available:</label>
+          <input type="checkbox" id="5August" name="1day" value="1"><label for="vehicle1" class="light"> August 5</label><br>
+          <input type="checkbox" id="6August" name="2day" value="2"><label for="vehicle2" class="light"> August 6</label><br>
+          <input type="checkbox" id="7August" name="3day" value="3"><label for="vehicle3" class="light"> August 7</label><br>
+          <input type="checkbox" id="8August" name="4day" value="4"><label for="vehicle3" class="light"> August 8</label><br>
+        </fieldset>
+        
+        <fieldset>
+        <label for="job">Seats for keep</label>
+        <select id="job" name="user_job">
+          <optgroup label="Web">
+            <option value="1s">1</option>
+            <option value="2s">2</option>
+            <option value="3s">3</option>
+            <option value="4s">4</option>
+            <option value="5s">5</option>
+            </optgroup>
+        </select>
+        
+                
+        </fieldset>
+        <button type="submit">Register</button>
+      </form>
+      
+    </body>
+</html>
